@@ -1,4 +1,4 @@
-class DateCalculator:
+class Date_Calculator:
     def __init__(self, day: int, month: int, year: int):
         self.day = day
         self.month = month
@@ -8,7 +8,7 @@ class DateCalculator:
         return self.day, self.month, self.year
 
 
-class Zeller(DateCalculator):
+class Zeller(Date_Calculator):
 
     def __init__(self, day: int, month: int, year: int):
         super().__init__(day, month, year)
